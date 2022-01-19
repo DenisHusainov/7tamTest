@@ -1,0 +1,2 @@
+/Users/denishusainov/Documents/GitHub/7tamTest/FarmTest/obj/Debug/NavMeshComponentsEditor.csproj.AssemblyReference.cache
+/Users/denishusainov/Documents/GitHub/7tamTest/FarmTest/obj/Debug/NavMeshComponentsEditor.csproj.CoreCompileInputs.cache
