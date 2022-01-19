@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UIView : MonoBehaviour
 {
    [SerializeField] private GameObject _gameOver;
    [SerializeField] private GameObject _winner;
-    [SerializeField] private GameObject _restart;
+   [SerializeField] private GameObject _restart;
 
     private void OnEnable()
     {

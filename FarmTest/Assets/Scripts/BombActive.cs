@@ -1,10 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BombActive : MonoBehaviour
 {
-    [SerializeField] private GameObject _particle;
     [SerializeField] private Material _bombBlick;
     [SerializeField] private ParticleSystem _particleSystem;
 

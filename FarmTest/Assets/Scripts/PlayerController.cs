@@ -9,10 +9,6 @@ public class PlayerController : MonoBehaviour
     public static event Action Explosion = delegate { };
 
     private SpriteRenderer _spriteRenderer;
-    private BoxCollider2D _collider;
-
-    private float _collX;
-    private float _collY;
 
     public static bool IsLeft;
     public static bool IsRight;
@@ -23,9 +19,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _collider = GetComponent<BoxCollider2D>();
-        _collY = _collider.size.y;
-        _collX = _collider.size.x;
     }
 
     private void FixedUpdate()
